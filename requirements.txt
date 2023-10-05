@@ -1,6 +1,4 @@
 jupyter-server-proxy
 plotly
 streamlit
-mpl_toolkits
-matplotlib
-seaborn
+
