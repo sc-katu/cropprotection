@@ -13,9 +13,9 @@ import plotly.express as px
 
 
 data = pd.read_excel('/mount/src/cropprotection/ZIKR_vrediteli.xlsx')
-data_gorhcak = pd.read_excel('/mount/src/cropprotection/ZIKR_vrediteli.xlsx'',sheet_name='Горчак')
-data_mol = pd.read_excel('/mount/src/cropprotection/ZIKR_vrediteli.xlsx'',sheet_name='Капустная_моль')
-data_pochvoobit = pd.read_excel('/mount/src/cropprotection/ZIKR_vrediteli.xlsx'',sheet_name='Почвообитающие')
+data_gorhcak = pd.read_excel('/mount/src/cropprotection/ZIKR_vrediteli.xlsx',sheet_name='Горчак')
+data_mol = pd.read_excel('/mount/src/cropprotection/ZIKR_vrediteli.xlsx',sheet_name='Капустная_моль')
+data_pochvoobit = pd.read_excel('/mount/src/cropprotection/ZIKR_vrediteli.xlsx',sheet_name='Почвообитающие')
 
 def main_page():     
     
