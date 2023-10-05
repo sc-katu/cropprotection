@@ -10,13 +10,9 @@ import pandas as pd
 import plotly.express as px
 
 
-github_raw_url = "https://github.com/sc-katu/cropprotection/raw/main/ZIKR_vrediteli.xlsx"
-response = requests.get(github_raw_url)
-xls_data = response.content
-data = pd.read_excel(BytesIO(xls_data))
-data_gorhcak = pd.read_excel(BytesIO(xls_data),sheet_name='Горчак')
-data_mol = pd.read_excel(BytesIO(xls_data),sheet_name='Капустная_моль')
-data_pochvoobit = pd.read_excel(BytesIO(xls_data),sheet_name='Почвообитающие')
+data_gorhcak = pd.read_excel('https://github.com/sc-katu/cropprotection/raw/main/ZIKR_vrediteli.xlsx',sheet_name='Горчак')
+data_mol = pd.read_excel('https://github.com/sc-katu/cropprotection/raw/main/ZIKR_vrediteli.xlsx',sheet_name='Капустная_моль')
+data_pochvoobit = pd.read_excel('https://github.com/sc-katu/cropprotection/raw/main/ZIKR_vrediteli.xlsx',sheet_name='Почвообитающие')
 
 def main_page():     
     
