@@ -8,12 +8,8 @@ Created on Mon Sep 25 01:09:33 2023
 import streamlit as st
 import pandas as pd
 import plotly.express as px
-import streamlit.components.v1 as components
-from mpl_toolkits.mplot3d import Axes3D
-from matplotlib.animation import FuncAnimation
-import numpy as np
-import matplotlib.pyplot as plt
-import seaborn as sns
+
+
 
 
 data = pd.read_excel('https://github.com/sc-katu/cropprotection/blob/main/ZIKR_vrediteli.xlsx')
