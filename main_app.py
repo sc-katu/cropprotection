@@ -17,9 +17,9 @@ import seaborn as sns
 
 
 data = pd.read_excel('/Users/dastanyelubayev/zikr_katru/ZIKR_vrediteli.xlsx')
-data_gorhcak = pd.read_excel('/Users/dastanyelubayev/zikr_katru/ZIKR_vrediteli.xlsx',sheet_name='Горчак')
-data_mol = pd.read_excel('/Users/dastanyelubayev/zikr_katru/ZIKR_vrediteli.xlsx',sheet_name='Капустная_моль')
-data_pochvoobit = pd.read_excel('/Users/dastanyelubayev/zikr_katru/ZIKR_vrediteli.xlsx',sheet_name='Почвообитающие')
+data_gorhcak = pd.read_excel('https://github.com/sc-katu/cropprotection/blob/main/ZIKR_vrediteli.xlsx',sheet_name='Горчак')
+data_mol = pd.read_excel('https://github.com/sc-katu/cropprotection/blob/main/ZIKR_vrediteli.xlsx',sheet_name='Капустная_моль')
+data_pochvoobit = pd.read_excel('https://github.com/sc-katu/cropprotection/blob/main/ZIKR_vrediteli.xlsx',sheet_name='Почвообитающие')
 
 def main_page():     
     
