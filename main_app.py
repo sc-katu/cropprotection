@@ -13,7 +13,7 @@ data = pd.read_excel('https://github.com/sc-katu/cropprotection/raw/main/ZIKR_vr
 data_gorhcak = pd.read_excel('https://github.com/sc-katu/cropprotection/raw/main/ZIKR_vrediteli.xlsx',sheet_name='Горчак')
 data_mol = pd.read_excel('https://github.com/sc-katu/cropprotection/raw/main/ZIKR_vrediteli.xlsx',sheet_name='Капустная_моль')
 data_pochvoobit = pd.read_excel('https://github.com/sc-katu/cropprotection/raw/main/ZIKR_vrediteli.xlsx',sheet_name='Почвообитающие')
-
+st.set_page_config(page_title="Прогнозирование численности/развития вредных с/х организмов")
 def main_page():     
     
     
