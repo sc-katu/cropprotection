@@ -194,15 +194,15 @@ def fourth_page():
     Y = intercept + coeff_dd30 * x1_dd30d + coeff_prec7d * x2_prec7d+coeff_tavr*x3_tavr
     st.write(f"Модель развития почвообитающих = {Y:.2f}")
     
-page = st.sidebar.selectbox("Вредители", ("Септориоз", "Горчак ползучий","Капустная моль", "Почвообитающие вредители"))
+page = st.sidebar.selectbox("Вредители", ("Септориоз", "Горчак ползучий","Капустная моль", "Почвообитающие вредители (щелкуны, чернотелки)"))
 content = st.container()
 if page == "Септориоз":
     main_page()
-elif page == "Горчак":
+elif page == "Горчак ползучий":
     second_page()
 elif page == "Капустная моль":
     third_page()
-elif page == "Почвообитающие":
+elif page == "Почвообитающие вредители (щелкуны, чернотелки)":
     fourth_page()
 
 
