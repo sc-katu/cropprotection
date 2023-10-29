@@ -162,7 +162,7 @@ def third_page():
     Y = intercept + coeff_prec * x1_precavr + coeff_tmax * x2_tmax
     st.write(f"Модель развития капустной моли = {Y:.2f}")
 def fourth_page():
-    st.title("Прогнозирование. Почвообитающие вредители(щелкуны, чернотелки)")
+    st.title("Прогнозирование. Почвообитающие вредители")
     # Create a Markdown table
     markdown_table = """
     | Наименование предиктора               | Описание                                    |
